@@ -8,7 +8,9 @@ A parking management system designed to track and manage vehicle parking operati
 - **Database**: JSON server.
 
 ## UI
-
+![image](https://github.com/user-attachments/assets/1827455c-0fa1-47f5-bdd2-463f3aae12a6)
+![image](https://github.com/user-attachments/assets/77fe433d-ae8c-464c-a9da-169cb676fb6f)
+![image](https://github.com/user-attachments/assets/5d6294a2-65ad-4a96-ab56-40623917dd9e)
 
 
 ## Features
