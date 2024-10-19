@@ -1,0 +1,37 @@
+{
+  "vehicles": [
+    {
+      "id": "1729256813824",
+      "licenseNumber": "Dhaka1234",
+      "vehicleType": "Car",
+      "ownerName": "Shakib",
+      "ownerPhone": "01777075747",
+      "ownerAddress": "Gulshan",
+      "entryTime": "2024-10-18T19:06",
+      "exitTime": "2024-10-18T19:11",
+      "status": "out"
+    },
+    {
+      "id": "1729257234263",
+      "licenseNumber": "DH-321",
+      "vehicleType": "Microbus",
+      "ownerName": "S. M. Shakib",
+      "ownerPhone": "01886075737",
+      "ownerAddress": "Gulshan-2",
+      "entryTime": "2024-10-18T19:13",
+      "exitTime": "2024-10-18T19:14",
+      "status": "out"
+    },
+    {
+      "id": "1729257394222",
+      "licenseNumber": "Truck-234",
+      "vehicleType": "Truck",
+      "ownerName": "Truck Owner",
+      "ownerPhone": "01777.75747",
+      "ownerAddress": "Dhaka",
+      "entryTime": "2024-10-18T19:15",
+      "exitTime": "",
+      "status": "in"
+    }
+  ]
+}

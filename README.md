@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ParkMate
 
-## Getting Started
+A parking management system designed to track and manage vehicle parking operations efficiently. The system supports data persistence using either Firebase (for advanced use) or Local Storage (for basic use). It allows users to input vehicle information, track parking status, calculate charges, and visualize data via a dashboard.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Frontend**: HTML, TailwindCSS, TypeScript, NextJS, Redux.
+- **Database**: JSON server.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## UI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Vehicle Information Form**: Capture details including:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - Vehicle License Number
+  - Vehicle Type (Microbus, Car, Truck)
+  - Vehicle Owner Name
+  - Vehicle Owner Phone
+  - Status (In/Out)
+  - Car Owner Address
+  - Time and Date of Entry
+  - Time and Date of Exit
+  - Parking Charges (based on vehicle type)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Data Table**: Displays a list of parked vehicles with the following columns:
 
-## Deploy on Vercel
+  - Owner Name
+  - Vehicle Type
+  - License Number
+  - Entry Time
+  - Exit Time
+  - Status
+  - Edit option to update vehicle exit details
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Dashboard**:
+  - Date filter (default to today's information)
+  - Total Cars Parked
+  - Total Empty Slots
+  - Vehicle Type Breakdown (number of each type of vehicle)
+  - A card showing vehicles parked for more than two hours
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/parkmate.git
+   cd parkmate
+   ```
